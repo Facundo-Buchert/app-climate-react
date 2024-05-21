@@ -1,0 +1,67 @@
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline double white 2px ;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(30, 31, 92);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s all ease;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: rgb(49, 51, 140);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(19, 13, 50);
+    font-weight: bold;
+}
+
+img {
+    width: 180px;
+}
+
+h1, h2{
+    color: rgb(225, 225, 225);
+}
+
+@media (max-width:900px) {
+    .container {
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+}
